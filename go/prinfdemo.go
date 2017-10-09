@@ -31,7 +31,7 @@ func main() {
    fmt.Printf("name:%s   age:%d   score:%f\n", name, age, score); // nice for debugging
    fmt.Printf("%18s%3d%10f\n", name, age, score); // fixed column widths
    fmt.Printf("%21s %3d %10f\n", name, age, score); // fixed column widths, added spaces
-   fmt.Printf("%21s %-3d %10f\n", name, age, score); // left justfy age with -
+   fmt.Printf("%21s %-3d %10f\n", name, age, score); // left justify age with -
    fmt.Printf("%21s %3d %10.3f\n", name, age, score); // %10.3f sets 3 decimal places for score
    fmt.Printf("%21s %3d $%.2f\n", name, age, score); // if score were a dollar amount, remove width
    fmt.Printf("%21s %3d $%7.2f\n", name, age, score); // add a width to line up decimals

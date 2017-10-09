@@ -37,7 +37,7 @@ public class PrintfDemo {
    System.out.print(String.format("name:%s   age:%d   score:%f\n", name, age, score)); // nice for debugging
    System.out.print(String.format("%18s%3d%10f\n", name, age, score)); // fixed column widths
    System.out.print(String.format("%21s %3d %10f\n", name, age, score)); // fixed column widths, added spaces
-   System.out.print(String.format("%21s %-3d %10f\n", name, age, score)); // left justfy age with -
+   System.out.print(String.format("%21s %-3d %10f\n", name, age, score)); // left justify age with -
    System.out.print(String.format("%21s %3d %10.3f\n", name, age, score)); // %10.3f sets 3 decimal places for score
    System.out.print(String.format("%21s %3d $%.2f\n", name, age, score)); // if score were a dollar amount, remove width
      System.out.println(String.format("%21s %3d $%7.2f\n", name, age, score); // add a width to line up decimals
